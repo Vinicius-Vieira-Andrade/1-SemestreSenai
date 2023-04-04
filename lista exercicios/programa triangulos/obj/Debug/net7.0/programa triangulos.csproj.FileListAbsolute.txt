@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\bin\Debug\net7.0\programa triangulos.exe
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\bin\Debug\net7.0\programa triangulos.deps.json
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\bin\Debug\net7.0\programa triangulos.runtimeconfig.json
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\bin\Debug\net7.0\programa triangulos.dll
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\bin\Debug\net7.0\programa triangulos.pdb
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\programa triangulos.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\programa triangulos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\programa triangulos.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\programa triangulos.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\programa triangulos.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\programa triangulos.dll
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\refint\programa triangulos.dll
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\programa triangulos.pdb
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\programa triangulos.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1SEM\programa triangulos\obj\Debug\net7.0\ref\programa triangulos.dll

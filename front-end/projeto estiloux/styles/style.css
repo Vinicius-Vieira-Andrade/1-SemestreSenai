@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web:ital,wght@0,200;1,600&display=swap');
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+/*reset de propriedades*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #EDECED;
+}
+
+/* header */
+
+header {
+    background-color: grey;
+}
+
+/* centralizção da margem header */
+.grid-layout {
+/* background-color: greenyellow; */
+width: 80%; /* top/bottom | right/left */
+margin: 0 auto;
+}
+
+header .header-flex {
+display: flex;
+justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header h1 #logoux {
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+header nav {
+    /* tecnica flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+    /* main */
+
+main{
+    padding-top: 20px;
+}
+
+section #lapis {
+    width: 100%;
+}
+
+main .coluna-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section */
+main .coluna1 {
+    background-color: white;
+    width: 75%;
+    /* background-color: tomato; */
+}
+
+/* aside */
+main .coluna2 {
+    width: 23%;
+    /* background-color: tomato; */
+}
+/* articles dentro da aside */
+
+main .coluna2 article {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+footer {
+    background-color: gray;
+    margin-top: 162px;
+}
+
+footer .grid-layout{
+
+}
+

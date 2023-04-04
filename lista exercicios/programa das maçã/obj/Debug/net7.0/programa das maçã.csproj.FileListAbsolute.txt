@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\bin\Debug\net7.0\programa das maçã.exe
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\bin\Debug\net7.0\programa das maçã.deps.json
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\bin\Debug\net7.0\programa das maçã.runtimeconfig.json
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\bin\Debug\net7.0\programa das maçã.dll
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\bin\Debug\net7.0\programa das maçã.pdb
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\programa das maçã.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\programa das maçã.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\programa das maçã.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\programa das maçã.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\programa das maçã.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\programa das maçã.dll
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\refint\programa das maçã.dll
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\programa das maçã.pdb
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\programa das maçã.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1SEM\programa das maçã\obj\Debug\net7.0\ref\programa das maçã.dll

@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1SEM\programa salario\bin\Debug\net7.0\programa salario.exe
+C:\Users\53685550837\Desktop\1SEM\programa salario\bin\Debug\net7.0\programa salario.deps.json
+C:\Users\53685550837\Desktop\1SEM\programa salario\bin\Debug\net7.0\programa salario.runtimeconfig.json
+C:\Users\53685550837\Desktop\1SEM\programa salario\bin\Debug\net7.0\programa salario.dll
+C:\Users\53685550837\Desktop\1SEM\programa salario\bin\Debug\net7.0\programa salario.pdb
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\programa salario.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\programa salario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\programa salario.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\programa salario.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\programa salario.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\programa salario.dll
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\refint\programa salario.dll
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\programa salario.pdb
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\programa salario.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1SEM\programa salario\obj\Debug\net7.0\ref\programa salario.dll

@@ -1,0 +1,339 @@
+    /* import da fonte */
+
+    @font-face {
+        font-family: Open_Sans;
+        src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttfSS);
+    }
+
+    @font-face {
+        font-family: Bebas_Neue;
+        src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+    }
+
+    * {
+        margin: 0;
+        /* Reset css */
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {}
+
+    /* centralização */
+
+    .grid-layout {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        /* border: greenyellow 2px solid; */
+    }
+
+    /* header */
+
+    header .header-flex-box {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    header {
+        background-color: #F9003D;
+        height: 60px;
+    }
+
+    header nav {
+        width: 600px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header nav a {
+        padding: 15px 25px;
+        font-family: "Bebas_Neue";
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 8px;
+    }
+
+    header nav a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+
+
+    header #hamburguer {
+        /* esconde o menu hamburguer na tela desktop*/
+        display: none;
+    }
+
+
+    /* main */
+
+    main .banner {
+        background-image: url(../assets/imagem-fundo-banner.png);
+        width: 100%;
+        height: 740px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*cover= (é igual) 100% auto*/
+        background-position: bottom;
+    }
+
+    #desenvolvimento {
+        letter-spacing: 1px;
+        font-family: "Bebas_Neue";
+        color: #ffffff;
+        border-bottom: #FFAF00 1px solid;
+        padding-bottom: 10px;
+        font-size: 96px;
+    }
+
+    #info {
+        font-family: 'Courier New', Courier, monospace;
+        color: #F9003D;
+        font-weight: bold;
+        font-size: 53px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    #bannerinfo {
+        width: 560px;
+    }
+
+    .banner-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    #mouse {
+        margin: 15px 15px;
+
+    }
+
+    /* sobre */
+
+    #fundoroxo {
+        background-color: #080324;
+        height: 791px;
+    }
+
+    section h1 {
+        color: #F9003D;
+        font-size: 64px;
+        font-family: "Bebas_Neue";
+        letter-spacing: 2px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    div h3 {
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    div h2 {
+        color: #FFAF00;
+        font-size: 64px;
+        font-family: "Bebas_Neue";
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    section p {
+        color: white;
+        font-size: 18px;
+    }
+
+    #imagemsobre {
+        width: 491px;
+        height: 476px;
+    }
+
+    .sobreflex {
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid blueviolet; */
+    }
+
+    section #divsobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid salmon; */
+    }
+
+    .divparti {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 80px;
+        /* border: #FFAF00 2px solid; */
+    }
+
+
+    .fundoendereco {
+        color: #ffffff;
+        background-image: url(../assets/imagem-fundo-endereco.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+    }
+
+    section h4 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    section h5 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 28px;
+        color: #9853EA;
+        border: 1px #A259F7 solid;
+        width: 289px;
+        height: 100px;
+        text-transform: uppercase;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .articles {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+
+    #endereco {
+        background-image: url(../assets/imagem-fundo-endereco.png);
+        background-size: cover;
+
+        color: #ffffff;
+        width: auto;
+        height: 598px;
+    }
+
+    #endere {
+        color: #FFAF00;
+        font-size: 64px;
+        margin: 0;
+        padding: 0;
+        font-family: "Bebas_Neue";
+        letter-spacing: 1px;
+        padding-top: 50px;
+        padding-left: ;
+    }
+
+    #p-endere {
+        color: #A259F7;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+        border: #340B65 2px solid;
+        background-color: #010010;
+        width: 1100px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        padding-left: 70px;
+    }
+
+    /* #mapa {
+        position: relative;
+        
+
+        width: 309px;
+        height: 249px;
+
+    } */
+
+    .maps {
+        position: relative;
+        right: 200px;
+
+    }
+ 
+    .flex-endereço {
+        padding-top: 10px;
+        border: #FFAF00 1px solid;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .end-flex {
+        display: flex;
+        flex-direction: column;
+
+        /* border: #FFAF00 1px solid; */
+    }
+
+
+    footer {
+        background-color: #F9003D;
+        height: 82px;
+    }
+
+    #footerr {
+        color: white;
+        font-family: "Open_Sans";
+        font-size: 18px;
+        /* border: #FFAF00 solid 1px; */
+        height: 82px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+    /* media-queries */
+    /*  */
+    @media screen and (max-width: 767px) {
+
+        main {
+            display: none;
+        }
+
+        header nav {
+            position: fixed;
+            top: 60px;
+            left: 0;
+            width: 80vw;
+            max-width: 360px;
+            height: 100vh;
+
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #F9003D;
+
+            box-shadow: 10px -15px #2e28297c;
+
+        }
+
+        header nav a {
+            border-left: #ffffff dashed 2px;
+            border-radius: 0%;
+            width: 150px;
+            margin-bottom: 50px;
+        }
+
+        header #hamburguer {
+            /* esconde o menu hamburguer na tela desktop*/
+            display: block;
+        }
+    }

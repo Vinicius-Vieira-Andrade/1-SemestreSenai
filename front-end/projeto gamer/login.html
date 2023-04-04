@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-top">
+
+            <div class="layout-grid alinhamento-between-center">
+
+                <div class="contatos">
+
+                    <a class="phone">
+                        <img src="./assets/icons/icone_telefonetelefone.svg" alt="Icone de telefone para contatos">
+                        <p>(11) 0900-1010</p>
+                    </a>
+
+                    <a class="email">
+                        <img src="./assets/icons/icone_emailemail.svg" alt="Icone de email para contato">
+                        <p>contato@gmail.com.br</p>
+                    </a>
+                </div>
+
+                <div class="midias-sociais">
+                    <a href="">
+                        <img src="./assets/icons/Vectorfacebook.svg" alt="imagem link do facebook da empresa">
+                    </a>
+
+                    <a href="">
+                        <img src="./assets/icons/Vectorlinkedin.svg" alt="imagem link do linkedin da empresa">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/Vectorinstagram.svg" alt="imagem link do instagram da empresa">
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="header-bottom">
+
+            <div class="layout-grid alinhamento-between-center">
+
+
+                <!-- menu hamburguer visivel apenas no mobile -->
+                <img class="menu-hamburguer" onclick="mostrarMenu()" src="./assets/icons/Vectorhamburguer.svg"
+                    alt="menu que abre e fecha o menu de navegação no celular">
+
+                <!-- logotipo gamer -->
+                <img class="logo" src="./assets/images/logotipo-gamer.svg" alt="logotipo com controle de video game">
+
+                <!-- menu três pontinhos visivel apenas no mobile -->
+                <img class="menu-pontinhos" onclick="mostrarNavegar()" src="./assets/icons/Vectorpontos.svg"
+                    alt="menu de três pontos (reticências) que abre menu de usuário, compras e buscar">
+
+                <div class="menu-usuarios" id="menu-lateral">
+                    <a href="login.html">
+                        <img src="./assets/icons/Vectoruser.svg" alt="icone de usuario login">
+                    </a>
+
+                    <a href="">
+                        <img src="./assets/icons/Vectorcompras.svg" alt="icone de compras">
+                    </a>
+
+                    <a href="">
+                        <img src="./assets/icons/Vectorbuscar.svg" alt="icone de pesquisa">
+                    </a>
+                </div>
+
+
+                <nav class="menu" id="menu">
+                    <a href="./index.html">Início</a>
+                    <a href="./jogadores.html">Jogadores</a>
+                    <a href="./equipes.html">Equipes</a>
+                    <a href="">Notícias</a>
+
+
+                    <!-- VISIVEL APENAS NO MOBILE -->
+                    <a class="phone">
+                        <img src="./assets/icons/icone_telefonetelefone.svg" alt="Icone de telefone para contatos">
+                        <p>(11) 0900-1010</p>
+                    </a>
+
+                    <a class="email">
+                        <img src="./assets/icons/icone_emailemail.svg" alt="Icone de email para contato">
+                        <p>contato@gmail.com.br</p>
+                    </a>
+
+                    <div class="midias-sociais">
+                        <a href="">
+                            <img src="./assets/icons/Vectorfacebook.svg" alt="imagem link do facebook da empresa">
+                        </a>
+
+                        <a href="">
+                            <img src="./assets/icons/Vectorlinkedin.svg" alt="imagem link do linkedin da empresa">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/Vectorinstagram.svg" alt="imagem link do instagram da empresa">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="banner-login">
+
+        <div class="alinhamento">
+
+            <form action="" class="layout-grid flex-login">
+                <div class="titulo">
+                    <hr>
+                    <h1>login</h1>
+                </div>
+
+                <div class="dados">
+                    <div class="space-email">
+                        <img src="./assets/icons/Vectoremaillogin.svg" alt="">
+                        <label for="email"></label>
+                        <input type="email" id="email" placeholder="Digite seu e-mail:">
+                    </div>
+
+                    <div class="space-senha">
+                        <img src="./assets/icons/Vectorsenhalogin.svg" alt="">
+                        <label for="senha"></label>
+                        <input type="password" id="senha" placeholder="Digite sua senha:">
+                    </div>
+                </div>
+
+                <button>Logar</button>
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="layout-grid flex-footer">
+            <div class="introducao-footer">
+                <img id="logotipo" src="./assets/icons/logotipo-gamerlogo.svg"
+                    alt="logotipo gamer imagem de um controle com a palavra gamer">
+                <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte à nossa equipe talentosa
+                    e
+                    altamente comprometida.</p>
+            </div>
+
+            <div class="redes-footer">
+                <a href=""><img src="./assets/icons/icone_facebook_footerfbfooter.svg"
+                        alt="link com imagem do logotipo do facebook"></a>
+                <a href=""><img src="./assets/icons/icone_linkedin_footer.svg"
+                        alt="link com imagem do logotipo do linkedin"></a>
+                <a href=""><img src="./assets/icons/icone_intagram_footer.svg"
+                        alt="link com imagem do logotipo do instagram"></a>
+            </div>
+
+            <article class="links-uteis">
+                <div class="titulo">
+                    <h1>Links Úteis</h1>
+                    <hr>
+                </div>
+
+                <div class="alinha-links">
+                    <div class="inicio">
+                        <hr> <a href="./index.html">Início</a>
+                    </div>
+
+                    <div class="login">
+                        <hr> <a href="./login.html">Login</a>
+                    </div>
+
+                    <div class="jogadores">
+                        <hr> <a href="./jogadores.html">Jogadores</a>
+                    </div>
+
+                    <div class="equipes">
+                        <hr> <a href="./equipes.html">Equipes</a>
+                    </div>
+
+                    <div class="noticias">
+                        <hr> <a href="">Notícias</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="contatos-footer">
+
+                <div class="titulo">
+                    <h1>Contatos</h1>
+                    <hr>
+                </div>
+
+                <div class="info-contatos">
+                    <h2>localização:</h2>
+                    <p>Rua Niterói, 180 - São Caetano do Sul - <span>Sp</span></p>
+
+                    <h2>Junte-se a nós:</h2>
+                    <p>contato@gamer.com.br</p>
+
+                    <h2>Telefone:</h2>
+                    <p>(11)0900-1010</p>
+                </div>
+            </article>
+
+            <article class="newsletter">
+
+                <div class="titulo">
+                    <h1>newsletter</h1>
+                    <hr>
+                </div>
+
+                <div class="alinhar-email-enviar">
+                    <div class="footer-email">
+                        <label for="email"></label>
+                        <input type="email" id="email" placeholder="Digite seu e-mail:">
+                    </div>
+
+                    <button id="enviar-footer">Enviar</button>
+                </div>
+            </article>
+            <div id="seta-voltar">
+                <a href="./index.html"><img src="./assets/icons/Botao_voltar_ao_toposetapcima.svg"
+                        alt="icone de seta que ao clicar voltará pra cima"></a>
+            </div>
+
+            <div id="copyright">
+                <p>©Copyright2022-GamerJogosDigitais</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javascript abrir e fechar navegacao no menu hamburguer -->
+    <script>
+        function mostrarMenu() {
+            document.getElementById("menu").classList.toggle("mostrar-menu");
+        }
+
+        function mostrarNavegar() {
+            document.getElementById("menu-lateral").classList.toggle("mostrarLateral")
+
+        }
+    </script>
+</body>
+
+</html>

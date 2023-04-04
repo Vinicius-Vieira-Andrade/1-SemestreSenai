@@ -1,0 +1,5 @@
+C:\Users\53685550837\Desktop\1SEM\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1SEM\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1SEM\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1SEM\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1SEM\estruturas-condicionais\obj\Debug\net7.0\estruturas-condicionais.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\bin\Debug\net7.0\programa senhas validação.exe
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\bin\Debug\net7.0\programa senhas validação.deps.json
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\bin\Debug\net7.0\programa senhas validação.runtimeconfig.json
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\bin\Debug\net7.0\programa senhas validação.dll
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\bin\Debug\net7.0\programa senhas validação.pdb
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\programa senhas validação.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\programa senhas validação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\programa senhas validação.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\programa senhas validação.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\programa senhas validação.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\programa senhas validação.dll
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\refint\programa senhas validação.dll
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\programa senhas validação.pdb
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\programa senhas validação.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1SEM\programa senhas validação\obj\Debug\net7.0\ref\programa senhas validação.dll

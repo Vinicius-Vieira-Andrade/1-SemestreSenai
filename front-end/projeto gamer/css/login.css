@@ -1,0 +1,620 @@
+/* import de fonts */
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: titilium;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: blacktiti;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: boldtiti;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+/* reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* classes genéricas */
+
+body {
+    color: rgb(255, 255, 255);
+}
+
+header .header-bottom {
+    height: 60px;
+}
+
+.mostrarLateral {
+    right: 0 !important;
+}
+
+.mostrar-menu {
+    left: 0 !important;
+}
+
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: red 2px solid; */
+}
+
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bottom-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinhamento-noticias {
+    /* border: salmon 1px solid; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 82%;
+    margin-left: 35px;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+
+/* mobile first */
+
+/* HEADER */
+
+
+header .header-top {
+    display: none;
+    border-bottom: #F9AA01 solid 1px;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+    height: 60px;
+    background-color: #1B1426;
+}
+
+header .logo {
+    width: 86px;
+}
+
+header .header-bottom nav {
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: calc(100vh - 60px);
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(5px);
+    padding-bottom: 20px;
+
+    transition: left 0.5s;
+
+    /* display: none; */
+}
+
+header .header-bottom nav>a {
+    padding: 30px 0;
+    color: white;
+    font-size: 15px;
+    font-family: "inter";
+    text-decoration: none;
+    border-bottom: #F9AA01 2px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+header .header-bottom nav a:last-of-type {
+    border-bottom: none;
+}
+
+header .menu-usuarios {
+    position: fixed;
+    top: 60px;
+    right: -66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    width: 66px;
+    border-radius: 15px;
+
+    transition: right 0.5s;
+
+
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(5px);
+}
+
+
+header .header-bottom .contatos {
+    display: flex;
+    justify-content: space-around;
+    width: 410px;
+    height: 29px;
+}
+
+header .header-bottom nav .midias-sociais {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+
+    text-decoration: none;
+    /* border: 1px red solid; */
+}
+
+
+/* MAIN */
+
+main {
+    background-image: url(../assets/images/Banner_Loginloginmobile.png);
+    background-position: center;
+    background-size: contain;
+    height: 687px;
+    margin-top: 60px;
+}
+
+main .alinhamento {
+    display: flex;
+    align-items: center;
+    /* border: #F9AA01 solid 1px; */
+    height: 625px;
+    backdrop-filter: blur(2px);
+}
+
+main form.flex-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 462px;
+    /* border: #0ce076 solid 1px; */
+    border-radius: 8px;
+    border: transparent solid 3px;
+    background:
+    linear-gradient(to right, rgba(27, 20, 38, 0.9), rgba(60, 3, 65, 0.2)) content-box,
+    linear-gradient(to right bottom, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.0)) border-box;
+    backdrop-filter: blur(10px);
+}
+
+form .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form h1 {
+    font-family: "blacktiti";
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+main form hr {
+    border: #F9AA01 2px solid;
+    width: 90px;
+}
+
+main form img {
+    width: 20px;
+    height: 20px;
+    /* border: greenyellow 2px solid; */
+}
+
+main form input {
+    width: 215px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "titilium";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+main form input::placeholder {
+    color: white;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 274px;
+    height: 111px;
+}
+
+main form .space-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: transparent 3px solid;
+    background: 
+    /* CONTENT */
+    linear-gradient(to right, rgba(239, 239, 239, 0.1), rgba(239, 239, 239, 0.10)) content-box,
+    /* BORDA */
+    linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, .1)) border-box;
+    width: 273px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+main form .space-senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 2px solid transparent;
+    background: 
+    /* CONTENT */
+    linear-gradient(to right, rgba(239, 239, 239, 0.1), rgba(239, 239, 239, 0.1)) content-box,
+    /* BORDA */
+    linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1)) border-box;
+    /* border: white solid 1px; */
+    width: 273px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+main form button {
+    position: relative;
+    bottom: 40px;
+    width: 273px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #F9AA01;
+    font-family: "boldtiti";
+    font-size: 24px;
+}
+
+/* FOOTER */
+footer {
+    height: 1531px;
+    background-image: url(../assets/images/backgroung_footerfooter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 65px 25px black;
+}
+
+footer .flex-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer article#fundo-gradiente {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 2, 1), rgba(67, 3, 99, 0.03));
+    height: 212px;
+}
+
+footer .introducao-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: #F9AA01 1px solid; */
+    height: 215px;
+    font-family: "quicksand";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer .introducao-footer #logotipo {
+    width: 110px;
+    height: 32px;
+}
+
+footer .redes-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .links-uteis {
+    height: 148px;
+}
+
+footer article .titulo h1 {
+    font-family: "blacktiti";
+    font-size: 30px;
+
+}
+
+footer article .titulo hr {
+    width: 113px;
+    border: #F9AA01 2px solid;
+}
+
+footer .alinha-links {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: flex-end;
+    /* border: #FD4255 solid 1px; */
+    gap: 10px;
+}
+
+footer .alinha-links a {
+    text-decoration: none;
+    font-family: "boldtiti";
+    font-size: 16px;
+    color: white;
+}
+
+footer .alinha-links hr {
+    border: #F9AA01 solid 2px;
+    width: 14px;
+}
+
+footer .inicio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .jogadores {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 50px;
+}
+
+footer .equipes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .noticias {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .contatos-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 247px;
+    /* border: yellowgreen 1px solid; */
+}
+
+footer .contatos-footer h2 {
+    font-family: "boldtiti";
+    font-size: 16px;
+    color: #F9AA01;
+}
+
+footer .contatos-footer p {
+    font-family: "boldtiti";
+    font-size: 16px;
+    color: white;
+}
+
+footer .contatos-footer span {
+    text-transform: uppercase;
+}
+
+footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 188px;
+    
+}
+
+footer .alinhar-email-enviar {
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .footer-email {
+    display: flex;
+    align-items: center;
+    width: 333px;
+    height: 40px;
+    border: transparent 3px solid;
+    background:
+        /* CONTENT */
+        linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(239, 239, 239, 0.10)) content-box,
+        /* BORDA */
+        linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, .1)) border-box;
+    border-radius: 8px;
+}
+
+footer .footer-email input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "titilium";
+    font-size: 16px;
+}
+
+
+footer .footer-email input::placeholder {
+    display: flex;
+    align-items: center;
+    font-family: "titilium";
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer #enviar-footer {
+    background-color: #F9AA01;
+    border-radius: 8px;
+    font-family: "boldtiti";
+    font-size: 24px;
+    color: #1B1426;
+    width: 333px;
+    height: 40px;
+}
+
+footer #seta-voltar {
+    position: relative;
+}
+
+footer #seta-voltar img {
+    position: absolute;
+    top: 15px;
+    left: 285px;
+}
+
+footer #copyright {
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: "titilium";
+    font-size: 16px;
+}
+
+
+
+/* Desktop */
+
+@media screen and (min-width: 1200px) {
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    /* header */
+
+    header {
+        position: static;
+        height: 140px;
+        width: 100%;
+    }
+
+    header .header-top {
+        display: block;
+        height: 50px;
+        border-bottom: #F9AA01 1px solid;
+
+    }
+
+    header .header-top .contatos {
+        /* border: #FD4255 solid 1px; */
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        font-family: "inter";
+        font-weight: 400;
+    }
+
+
+
+    header .header-top .contatos>a {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        width: 200px;
+        /* border: 1px solid #F9AA01; */
+    }
+
+
+
+    header .header-top .midias-sociais {
+        display: flex;
+        justify-content: space-between;
+        /* border: #FD4255 solid 1px; */
+        width: 140px;
+    }
+
+
+    header .logo {
+        width: 196px;
+    }
+
+
+
+    /* esconde elementos desnecessarios */
+
+    header .header-bottom .menu-hamburguer,
+    header .header-bottom .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .email,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+        order: 1;
+    }
+
+    header .header-bottom {
+        height: 90px;
+    }
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        padding-bottom: 0;
+        flex-direction: row;
+        align-items: center;
+        background-color: transparent;
+        justify-content: space-between;
+    }
+
+    header .header-bottom nav>a {
+        font-size: 14px;
+        padding: 0;
+        border: none;
+    }
+
+    header .header-bottom .menu-usuarios {
+        position: static;
+        width: 140px;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+        order: 2;
+    }

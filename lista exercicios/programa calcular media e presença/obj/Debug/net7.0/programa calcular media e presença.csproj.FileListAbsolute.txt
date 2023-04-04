@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\bin\Debug\net7.0\programa calcular media e presença.exe
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\bin\Debug\net7.0\programa calcular media e presença.deps.json
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\bin\Debug\net7.0\programa calcular media e presença.runtimeconfig.json
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\bin\Debug\net7.0\programa calcular media e presença.dll
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\bin\Debug\net7.0\programa calcular media e presença.pdb
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\programa calcular media e presença.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\programa calcular media e presença.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\programa calcular media e presença.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\programa calcular media e presença.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\programa calcular media e presença.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\programa calcular media e presença.dll
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\refint\programa calcular media e presença.dll
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\programa calcular media e presença.pdb
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\programa calcular media e presença.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1SEM\programa calcular media e presença\obj\Debug\net7.0\ref\programa calcular media e presença.dll

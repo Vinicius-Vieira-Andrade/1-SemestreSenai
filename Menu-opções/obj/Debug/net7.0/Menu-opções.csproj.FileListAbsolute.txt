@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\Menu-opções.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\Menu-opções.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\Menu-opções.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\Menu-opções.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\Menu-opções.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\bin\Debug\net7.0\Menu-opções.exe
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\bin\Debug\net7.0\Menu-opções.deps.json
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\bin\Debug\net7.0\Menu-opções.runtimeconfig.json
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\bin\Debug\net7.0\Menu-opções.dll
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\bin\Debug\net7.0\Menu-opções.pdb
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\Menu-opções.dll
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\refint\Menu-opções.dll
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\Menu-opções.pdb
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\Menu-opções.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1SEM\Menu-opções\obj\Debug\net7.0\ref\Menu-opções.dll

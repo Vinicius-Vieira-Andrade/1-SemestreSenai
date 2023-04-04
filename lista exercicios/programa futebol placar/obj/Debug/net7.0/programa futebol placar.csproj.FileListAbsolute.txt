@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\bin\Debug\net7.0\programa futebol placar.exe
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\bin\Debug\net7.0\programa futebol placar.deps.json
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\bin\Debug\net7.0\programa futebol placar.runtimeconfig.json
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\bin\Debug\net7.0\programa futebol placar.dll
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\bin\Debug\net7.0\programa futebol placar.pdb
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\programa futebol placar.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\programa futebol placar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\programa futebol placar.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\programa futebol placar.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\programa futebol placar.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\programa futebol placar.dll
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\refint\programa futebol placar.dll
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\programa futebol placar.pdb
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\programa futebol placar.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1SEM\programa futebol placar\obj\Debug\net7.0\ref\programa futebol placar.dll
