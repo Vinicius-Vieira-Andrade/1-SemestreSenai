@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\53685550837\\Desktop\\1SEM\\Menu-opções\\Menu-opções.csproj": {}
+    "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Exercicio-bebidas\\Menu-opções.csproj": {}
   },
   "projects": {
-    "C:\\Users\\53685550837\\Desktop\\1SEM\\Menu-opções\\Menu-opções.csproj": {
+    "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Exercicio-bebidas\\Menu-opções.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\53685550837\\Desktop\\1SEM\\Menu-opções\\Menu-opções.csproj",
+        "projectUniqueName": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Exercicio-bebidas\\Menu-opções.csproj",
         "projectName": "Menu-opções",
-        "projectPath": "C:\\Users\\53685550837\\Desktop\\1SEM\\Menu-opções\\Menu-opções.csproj",
+        "projectPath": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Exercicio-bebidas\\Menu-opções.csproj",
         "packagesPath": "C:\\Users\\53685550837\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\53685550837\\Desktop\\1SEM\\Menu-opções\\obj\\",
+        "outputPath": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Exercicio-bebidas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\53685550837\\AppData\\Roaming\\NuGet\\NuGet.Config",

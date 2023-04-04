@@ -43,12 +43,12 @@ switch (bebidas)
 
         if (escolha1 == 1)
         {
-            Console.WriteLine($"Sua bebida terá gelo");
+            Console.WriteLine($"Sua Coca-Cola terá gelo");
         }
 
         else if (escolha1 == 2)
         {
-            Console.WriteLine($"Sua bebida não terá gelo");
+            Console.WriteLine($"Sua Coca-Cola não terá gelo");
         }
 
         else
@@ -69,12 +69,12 @@ switch (bebidas)
 
         if (escolha2 == 1)
         {
-            Console.WriteLine($"Sua bebida terá gelo");
+            Console.WriteLine($"Sua Pepsi terá gelo");
         }
 
         else if (escolha2 == 2)
         {
-            Console.WriteLine($"Sua bebida não terá gelo");
+            Console.WriteLine($"Sua Pepsi não terá gelo");
         }
 
         else
@@ -95,12 +95,12 @@ switch (bebidas)
 
         if (escolha3 == 1)
         {
-            Console.WriteLine($"Sua bebida terá gelo");
+            Console.WriteLine($"Seu Chá terá gelo");
         }
 
         else if (escolha3 == 2)
         {
-            Console.WriteLine($"Sua bebida não terá gelo");
+            Console.WriteLine($"Seu Chá não terá gelo");
         }
 
         else
@@ -121,12 +121,12 @@ switch (bebidas)
 
         if (escolha4 == 1)
         {
-            Console.WriteLine($"Sua bebida terá gelo");
+            Console.WriteLine($"Seu Dollão terá gelo");
         }
 
         else if (escolha4 == 2)
         {
-            Console.WriteLine($"Sua bebida não terá gelo");
+            Console.WriteLine($"Su Dollão não terá gelo");
         }
 
         else
