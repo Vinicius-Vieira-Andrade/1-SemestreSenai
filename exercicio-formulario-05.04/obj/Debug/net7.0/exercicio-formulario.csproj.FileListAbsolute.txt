@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\bin\Debug\net7.0\exercicio-formulario.exe
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\bin\Debug\net7.0\exercicio-formulario.deps.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\bin\Debug\net7.0\exercicio-formulario.runtimeconfig.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\bin\Debug\net7.0\exercicio-formulario.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\bin\Debug\net7.0\exercicio-formulario.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\exercicio-formulario.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\exercicio-formulario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\exercicio-formulario.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\exercicio-formulario.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\exercicio-formulario.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\exercicio-formulario.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\refint\exercicio-formulario.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\exercicio-formulario.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\exercicio-formulario.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicio-formulario\obj\Debug\net7.0\ref\exercicio-formulario.dll
