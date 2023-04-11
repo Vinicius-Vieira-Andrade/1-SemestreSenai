@@ -25,16 +25,25 @@ for (var i = 1; i <= 10; i++)
     if (sexo == 'f')
     {
         totalMulher++;
+        Console.WriteLine($"Informe sua idade: ");
+        int idadeMulher = int.Parse(Console.ReadLine());
         
     }
     else
     {
         totalHomem++;
+         Console.WriteLine($"Informe sua idade: ");
+        int idadeHomem = int.Parse(Console.ReadLine());
     }
-
-    
-    
 }
+
+Console.WriteLine($"Total de homens: {totalHomem}");
+Console.WriteLine($"Total de mulheres: {totalMulher}");
+Console.WriteLine($"Média de idade dos homens: {idadeHomem}");
+
+
+
+
 
 
 
