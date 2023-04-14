@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\bin\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.exe
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\bin\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.deps.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\bin\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.runtimeconfig.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\bin\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\bin\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\refint\lista-exercicios-todos-assuntos-abordados-em-eula.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\lista-exercicios-todos-assuntos-abordados-em-eula.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\lista-exercicios-todos-assuntos-abordados-em-eula\obj\Debug\net7.0\ref\lista-exercicios-todos-assuntos-abordados-em-eula.dll
