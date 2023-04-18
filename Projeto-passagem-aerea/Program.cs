@@ -10,61 +10,51 @@
 
 // Ao cadastrar uma passagem ao final o sistema deverá perguntar se gostaria de cadastrar uma nova passagem caso contrário voltar ao menu anterior(S/N).
 
-//declarar as variaveis
 string[] nomes = new string[5];
 string[] origens = new string[5];
 string[] destinos = new string[5];
 string[] datas = new string[5];
 
 //funcao cadastrar passagem
-static void CadastrarPassagem()
+static void CadastrarPassagem(string[] nomes, string[] origens, string[] destinos, string[] datas)
 {
-     string[] nomes = new string[5];
-     string[] origens = new string[5];
-     string[] destinos = new string[5];
-     string[] datas = new string[5];
-
     for (var i = 0; i < 5; i++)
     {
-        Console.WriteLine($"Insira o nome do passageiro: ");
+        Console.WriteLine($"Insira o nome: ");
         nomes[i] = Console.ReadLine()!;
 
-        Console.WriteLine($"Insira a origem do passageiro: ");
+        Console.WriteLine($"Insira a origem: ");
         origens[i] = Console.ReadLine()!;
 
-        Console.WriteLine($"Insira o destino do passageiro: ");
+        Console.WriteLine($"Insira o destino: ");
         destinos[i] = Console.ReadLine()!;
 
-        Console.WriteLine($"Insira a data do passageiro: ");
+        Console.WriteLine($"Insira a data: ");
         datas[i] = Console.ReadLine()!;
-
-        Console.WriteLine(@$"
-        Cadastro realizado com sucesso, deseja cadastrar uma nova passagem?
-        ");
-        
     }
 }
 
 //Funcao listar passagem
-static string ListarPassagem()
+static void ListarPassagem(string[] nomes, string[] origens, string[] destinos, string[] datas)
 {
     for (var i = 0; i < 5; i++)
     {
         Console.WriteLine(@$"
-        
+        s********************
+        Passagens - Bilhete
+
+        Nome: {nomes[i]}
+
+        Origem: {origens[i]}
+
+        Destino: {destinos[i]}
+
+        Data: {datas[i]}
         ");
     }
 }
 
-
-
-//Programa
-Console.WriteLine($"Bem vindo a tela de login !!");
-
-Console.WriteLine($"Insira seu usuário: ");
-string usuarioLogin = Console.ReadLine()!;
-
-//FUNCAO LOGIN
+//FUNCAO SENHA LOGIN
 static void SenhaLogin()
 {
     bool validarSenha = true;
@@ -87,19 +77,26 @@ static void SenhaLogin()
     } while (validarSenha == true);
 }
 
+//RODAR PROGRAMA
+Console.WriteLine($"Bem vindo a tela de login !!");
+
+Console.WriteLine($"Insira seu usuário: ");
+string usuarioLogin = Console.ReadLine()!;
+
 SenhaLogin();
 
 Console.WriteLine($"Login realizado com sucesso!!");
 
-//menu
-bool validarMenu = true;
 
+//MENU
+Mennu:
+bool validarMenu = true;
 do
 {
     Console.WriteLine(@$"
 
 ----------------------------
-| Bem vindo ao nosso menu! |
+| Bem vindo ao menu opções |
 |                          |
 |  Escolha uma das opções: |   
 |                          |
@@ -112,20 +109,33 @@ do
 ");
     int menuResposta = int.Parse(Console.ReadLine()!);
 
-    switch (menuResposta)
+    if (true)
     {
-        case 0:
-            break;
-        case 1:
-            CadastrarPassagem();
-            break;
 
-        default:
-            break;
+        CadastrarPassagem(nomes, origens, destinos, datas);
+        Console.WriteLine(@$"
+        Cadastro realizado com sucesso, deseja cadastrar uma nova passagem?
+
+        Utilize 's' para sim e 'n'
+        ");
+
+        char repostaCadastro = char.Parse(Console.ReadLine()!);
+
+        if (repostaCadastro == 's')
+        {
+            CadastrarPassagem(nomes, origens, destinos, datas);
+        }
+
+        else if (repostaCadastro == 'n')
+        {
+            goto Mennu;
+        }
+
     }
+       
+}
 
-
-} while (validarMenu == true);
+} while (validarMenu == true) ;
 
 
 
