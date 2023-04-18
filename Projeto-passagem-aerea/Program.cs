@@ -40,7 +40,7 @@ static void ListarPassagem(string[] nomes, string[] origens, string[] destinos, 
     for (var i = 0; i < 5; i++)
     {
         Console.WriteLine(@$"
-        s********************
+        *********************
         Passagens - Bilhete
 
         Nome: {nomes[i]}
@@ -88,8 +88,8 @@ SenhaLogin();
 Console.WriteLine($"Login realizado com sucesso!!");
 
 
-//MENU
-Mennu:
+//MENU OPCOES
+Mennu:  //CHECKPOINT
 bool validarMenu = true;
 do
 {
@@ -109,7 +109,7 @@ do
 ");
     int menuResposta = int.Parse(Console.ReadLine()!);
 
-    if (true)
+    if (menuResposta == 1)
     {
 
         CadastrarPassagem(nomes, origens, destinos, datas);
@@ -128,14 +128,28 @@ do
 
         else if (repostaCadastro == 'n')
         {
-            goto Mennu;
+            goto Mennu; //CHAMAR CHECKPOINT
         }
-
     }
-       
-}
 
-} while (validarMenu == true) ;
+    else if (menuResposta == 2)
+    {
+        ListarPassagem(nomes, origens, destinos, datas);
+    }
+
+    else if (menuResposta == 0)
+    {
+        Console.WriteLine($"Fim do programa");
+        break;
+    }
+
+    else
+    {
+        Console.WriteLine($"Opção inválida");
+        
+    }
+
+} while (validarMenu == true);
 
 
 
