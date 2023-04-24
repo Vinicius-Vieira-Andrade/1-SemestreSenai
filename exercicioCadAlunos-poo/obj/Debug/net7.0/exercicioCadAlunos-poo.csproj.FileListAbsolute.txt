@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\exercicioCadAlunos-poo.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\exercicioCadAlunos-poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\exercicioCadAlunos-poo.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\exercicioCadAlunos-poo.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\exercicioCadAlunos-poo.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\bin\Debug\net7.0\exercicioCadAlunos-poo.exe
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\bin\Debug\net7.0\exercicioCadAlunos-poo.deps.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\bin\Debug\net7.0\exercicioCadAlunos-poo.runtimeconfig.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\bin\Debug\net7.0\exercicioCadAlunos-poo.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\bin\Debug\net7.0\exercicioCadAlunos-poo.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\exercicioCadAlunos-poo.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\refint\exercicioCadAlunos-poo.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\exercicioCadAlunos-poo.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\exercicioCadAlunos-poo.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\exercicioCadAlunos-poo\obj\Debug\net7.0\ref\exercicioCadAlunos-poo.dll
