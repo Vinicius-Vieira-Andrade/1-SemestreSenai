@@ -15,24 +15,24 @@ namespace exercicioCadAlunos_poo
 
     public void VerMediaFinal()
     {
-        Console.WriteLine($"A sua média final é: {mediaFinal}");
+        Console.WriteLine($"A sua média final é: {this.mediaFinal}");
     }
 
     public float VerMensalidade()
     {
-        if (bolsista == true && mediaFinal >= 8)
+        if (this.bolsista && this.mediaFinal >= 8)
         {
-            return valorMensalidade / 2;
+            return this.valorMensalidade / 2;
         }
 
-        else if (bolsista == true && mediaFinal > 6 && mediaFinal < 8)
+        else if (this.bolsista && this.mediaFinal > 6 && this.mediaFinal < 8)
         {
-            return valorMensalidade * 30 / 100;
+            return this.valorMensalidade * 30 / 100;
         }
 
         else
         {
-            return valorMensalidade;
+            return this.valorMensalidade;
         }
     }
     }

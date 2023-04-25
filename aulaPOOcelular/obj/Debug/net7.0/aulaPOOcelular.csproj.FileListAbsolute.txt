@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\bin\Debug\net7.0\aulaPOOcelular.exe
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\bin\Debug\net7.0\aulaPOOcelular.deps.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\bin\Debug\net7.0\aulaPOOcelular.runtimeconfig.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\bin\Debug\net7.0\aulaPOOcelular.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\bin\Debug\net7.0\aulaPOOcelular.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\aulaPOOcelular.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\aulaPOOcelular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\aulaPOOcelular.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\aulaPOOcelular.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\aulaPOOcelular.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\aulaPOOcelular.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\refint\aulaPOOcelular.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\aulaPOOcelular.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\aulaPOOcelular.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\aulaPOOcelular\obj\Debug\net7.0\ref\aulaPOOcelular.dll

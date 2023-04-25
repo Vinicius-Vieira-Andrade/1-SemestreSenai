@@ -13,14 +13,12 @@
 // Acrescente o que achar necessário.
 using exercicioCadAlunos_poo;
 
-Aluno a1 = new Aluno();
+Aluno a1 = new Aluno(); //INSTANCIAR UM OBJETO DA CLASSE ALUNO
 
 Console.WriteLine($"Digite o valor da sua mensalidade: ");
 a1.valorMensalidade = float.Parse(Console.ReadLine()!);
-a1.VerMensalidade();
 Console.WriteLine($"Insira sua media");
 a1.mediaFinal = float.Parse(Console.ReadLine()!);
-
 
 
 Console.WriteLine($"Insira o seu nome");
@@ -32,25 +30,27 @@ a1.idade = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"Insira seu RG");
 a1.rg = Console.ReadLine()!;
 
-bolsa: // chekpoint
+checkBolsa: //CHECKPOINT
 Console.WriteLine(@$"
 Você é bolsista?
 Resposta 's' para sim e 'n' para não 
 ");
+string respostaBolsa = Console.ReadLine()!.ToLower();
 
-string respostaBolsa = Console.ReadLine()!.ToUpper();
-
-switch (respostaBolsa)
+if (respostaBolsa == "s")
 {
-    case "s":
-        a1.bolsista = true;
-        break;
-    case "n":
-        a1.bolsista = false;
-        break;
-    default:
-        Console.WriteLine($"Resposta inválida, insira uma resposta válida");
-        goto bolsa;
+    a1.bolsista = true;
+}
+
+else if (respostaBolsa == "n")
+{
+    a1.bolsista = false;
+}
+
+else
+{
+    Console.WriteLine($"Resposta inválida, insira uma resposta válida");
+    goto checkBolsa;
 }
 
 
@@ -75,9 +75,11 @@ switch (opcao)
         a1.VerMediaFinal();
         break;
     case "2":
-        a1.VerMensalidade();
+        Console.WriteLine($"A sua mensalidade é: {a1.VerMensalidade()}");
+
         break;
-    default:Console.WriteLine($"Opção inválida, tente novamente");
+    default:
+        Console.WriteLine($"Opção inválida, tente novamente");
         goto opcao;
 }
 
