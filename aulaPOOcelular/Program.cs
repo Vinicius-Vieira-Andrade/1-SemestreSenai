@@ -43,31 +43,31 @@ do
 
     string opcaoMenu = Console.ReadLine()!;
 
-        switch (opcaoMenu)
-        {
-            case "1":
-                validarMenu = true;
-                Console.WriteLine($"Celular já esta ligado");
-                break;
-            case "2":
-                validarMenu = false;
-                cel1.Desligar();
-                break;
-            case "3":
-                validarMenu = true;
-                cel1.FazerLigacao();
-                Console.WriteLine($"Ligacão feita, voltando para o menu");
-                break;
-            case "4":
-                validarMenu = true;
-                cel1.EnviarMensagem();
-                Console.WriteLine($"Mensagem enviada, voltando para o menu");
-                break;
-            default:
-                validarMenu = true;
-                Console.WriteLine($"Opção inválida");
-                break;
-        }
-    
+    switch (opcaoMenu)
+    {
+        case "1":
+            validarMenu = true;
+            Console.WriteLine($"Celular já esta ligado");
+            break;
+        case "2":
+            validarMenu = false;
+            cel1.Desligar();
+            break;
+        case "3":
+            validarMenu = true;
+            cel1.FazerLigacao();
+            Console.WriteLine($"Ligacão feita, voltando para o menu");
+            break;
+        case "4":
+            validarMenu = true;
+            cel1.EnviarMensagem();
+            Console.WriteLine($"Mensagem enviada, voltando para o menu");
+            break;
+        default:
+            validarMenu = true;
+            Console.WriteLine($"Opção inválida");
+            break;
+    }
+
 } while (validarMenu);
 
