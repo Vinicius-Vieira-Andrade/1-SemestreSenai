@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\53685550837\\Desktop\\1SEM\\programa das maçã\\programa das maçã.csproj",
+      "projectUniqueName": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\lista exercicios\\programa das maçã\\programa das maçã.csproj",
       "projectName": "programa das maçã",
-      "projectPath": "C:\\Users\\53685550837\\Desktop\\1SEM\\programa das maçã\\programa das maçã.csproj",
+      "projectPath": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\lista exercicios\\programa das maçã\\programa das maçã.csproj",
       "packagesPath": "C:\\Users\\53685550837\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\53685550837\\Desktop\\1SEM\\programa das maçã\\obj\\",
+      "outputPath": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\lista exercicios\\programa das maçã\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\53685550837\\AppData\\Roaming\\NuGet\\NuGet.Config",
