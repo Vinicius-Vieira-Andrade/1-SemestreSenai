@@ -1,0 +1,15 @@
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\bin\Debug\net7.0\Projeto_Final_Sprint3.exe
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\bin\Debug\net7.0\Projeto_Final_Sprint3.deps.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\bin\Debug\net7.0\Projeto_Final_Sprint3.runtimeconfig.json
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\bin\Debug\net7.0\Projeto_Final_Sprint3.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\bin\Debug\net7.0\Projeto_Final_Sprint3.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\Projeto_Final_Sprint3.csproj.AssemblyReference.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\Projeto_Final_Sprint3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\Projeto_Final_Sprint3.AssemblyInfoInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\Projeto_Final_Sprint3.AssemblyInfo.cs
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\Projeto_Final_Sprint3.csproj.CoreCompileInputs.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\Projeto_Final_Sprint3.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\refint\Projeto_Final_Sprint3.dll
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\Projeto_Final_Sprint3.pdb
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\Projeto_Final_Sprint3.genruntimeconfig.cache
+C:\Users\53685550837\Desktop\1-SemestreSenai\Projeto_Final_Sprint3\obj\Debug\net7.0\ref\Projeto_Final_Sprint3.dll

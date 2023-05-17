@@ -7,25 +7,31 @@ namespace Projeto_Final_Sprint3
 {
     public class Usuario
     {
-        public int Codigo { get;  set; }
-        public string Nome { get;  set; }
-        public string Email { get;  set; }
-        public string Senha { get;  set; }
-        public DateTime DataCadastro { get;  set; }
+        public int Codigo { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+        public DateTime DataCadastro { get; set; }
 
-        public string Cadastrar(Usuario)
+        public Usuario()
+        {
+            Cadastrar();
+        }
+        public string Cadastrar()
         {
             return
-            Nome = "a";
-            Email = "a@c";
-            Senha = "123";
-            DataCadastro = DateTime.UtcNow;
+            this.Nome = "vinicius";
+            this.Email = "v";
+            this.Senha = "123";
+            this.DataCadastro = DateTime.UtcNow;
         }
 
-        public void Deletar(Usuario)
+        public void Deletar(Usuario usuario)
         {
-        DataCadastro = DateTime.Parse("0000-00-00T00:00:00");
-
+            this.Nome = "";
+            this.Email = "";
+            this.Senha = "";
+            DataCadastro = DateTime.Parse("0000-00-00T00:00:00");
         }
     }
 }

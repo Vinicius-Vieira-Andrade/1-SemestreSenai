@@ -7,27 +7,40 @@ namespace Projeto_Final_Sprint3
 {
     public class Marca
     {
-        List<Marca> marcas = new List<Marca>();
+        List<Marca> listaMarcas = new List<Marca>();
 
         public int Codigo { get; set; }
         public string NomeMarca { get; set; }
-        public DateTime DataCadasstro { get; set; }
+        public DateTime DataCadastro { get; set; }
 
-        public string Cadastrar(Marca)
+        public void Cadastrar()
         {
+            Marca marcaAdicionaListaMarcas = new Marca();
+            Console.WriteLine($"Quantas marcas deseja cadastrar? Máximo 3");
+            int respostaMarcas = int.Parse(Console.ReadLine()!);
+            if (respostaMarcas > 0 && respostaMarcas < 4)
+            {
+                for (var i = 0; i < respostaMarcas; i++)
+                {
+                    Console.WriteLine($"Insira o nome da marcas(as): ");
+                    marcaAdicionaListaMarcas.NomeMarca = Console.ReadLine()!;
+                    Console.WriteLine($"Insira o código da marcas(as): ");
+                    marcaAdicionaListaMarcas.Codigo = int.Parse(Console.ReadLine()!);
 
+                    listaMarcas.Add(marcaAdicionaListaMarcas);
+                }
+            }
         }
-
         public void listar()
         {
-            if (marcas.Count > 0)
+            if (listaMarcas.Count > 0)
             {
-                foreach (var item in marcas)
+                foreach (var item in listaMarcas)
                 {
                     Console.WriteLine(@$"
                     Código da Marca: {item.Codigo}
                     Nome da marca: {item.NomeMarca}
-                    Data do cadastro: {item.DataCadasstro}
+                    Data do cadastro: {item.DataCadastro}
                 ");
                 }
             }
@@ -36,7 +49,15 @@ namespace Projeto_Final_Sprint3
             {
                 Console.WriteLine($"Não é possível listar, pois não tem marcas cadastradas!");
             }
+        }
+
+        public void Deletar(int codigo)
+        {
 
         }
     }
 }
+
+
+
+
