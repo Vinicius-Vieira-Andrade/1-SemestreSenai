@@ -54,11 +54,19 @@ namespace Projeto_Final_Sprint3
 
         public void Deletar(int codigo)
         {
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Marca mc = listaMarcas.Find(x => x.Codigo == codigo)!;
-            listaMarcas.Remove(mc);
-            Console.WriteLine($"A marca cujo o código é: {codigo} foi removido!");
-            Console.ResetColor();
+            if (listaMarcas.Count > 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Marca mc = listaMarcas.Find(x => x.Codigo == codigo)!;
+                listaMarcas.Remove(mc);
+                Console.WriteLine($"A marca cujo o código é: {codigo} foi removido!");
+                Console.ResetColor();
+            }
+             else
+            {
+                Console.WriteLine($"Não é possível deletar a marca, pois a mesma não foi cadastrada!");
+            }
+
         }
     }
 }

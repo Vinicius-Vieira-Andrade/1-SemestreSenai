@@ -18,7 +18,7 @@ namespace Projeto_Final_Sprint3
 
         public void Cadastrar(Usuario user)
         {
-            
+
             Produto adicionaProdutosListaProdutos = new Produto();
             Marca m1 = new Marca();
             Usuario usu = new Usuario();
@@ -55,7 +55,7 @@ namespace Projeto_Final_Sprint3
                  Data do cadastro: {item.DataCadastro}
              <=>=<=><=>=<=><=>=<=><=>=<=><=>=<=><=>=<=><=>
              ");
-             Console.ResetColor();
+                    Console.ResetColor();
                 }
             }
             else
@@ -66,11 +66,19 @@ namespace Projeto_Final_Sprint3
         }
         public void Deletar(int codigo)
         {
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Produto rr = listaProdutos.Find(x => x.Codigo == codigo)!;
-            listaProdutos.Remove(rr);
-            Console.WriteLine($"O produto cujo o código é: {codigo} foi removido!");
-            Console.ResetColor();
+            if (listaProdutos.Count > 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Produto rr = listaProdutos.Find(x => x.Codigo == codigo)!;
+                listaProdutos.Remove(rr);
+                Console.WriteLine($"O produto cujo o código é: {codigo} foi removido!");
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.WriteLine($"Não é possível deletar o produto, pois o mesmo não foi cadastrado!");
+            }
+
         }
     }
 }
