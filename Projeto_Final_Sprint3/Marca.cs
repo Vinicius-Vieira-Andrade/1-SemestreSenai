@@ -9,27 +9,24 @@ namespace Projeto_Final_Sprint3
     {
         List<Marca> listaMarcas = new List<Marca>();
 
-        public int Codigo { get; set; }
-        public string NomeMarca { get; set; }
-        public DateTime DataCadastro { get; set; }
+        public int Codigo { get; private set; }
+        public string NomeMarca { get; private set; }
+        public DateTime DataCadastro { get; private set; }
 
-        public void Cadastrar()
+        public Marca Cadastrar()
         {
             Marca marcaAdicionaListaMarcas = new Marca();
-            Console.WriteLine($"Quantas marcas deseja cadastrar? Máximo 3");
-            int respostaMarcas = int.Parse(Console.ReadLine()!);
-            if (respostaMarcas > 0 && respostaMarcas < 4)
-            {
-                for (var i = 0; i < respostaMarcas; i++)
-                {
-                    Console.WriteLine($"Insira o nome da marcas(as): ");
-                    marcaAdicionaListaMarcas.NomeMarca = Console.ReadLine()!;
-                    Console.WriteLine($"Insira o código da marcas(as): ");
-                    marcaAdicionaListaMarcas.Codigo = int.Parse(Console.ReadLine()!);
 
-                    listaMarcas.Add(marcaAdicionaListaMarcas);
-                }
-            }
+            Console.WriteLine($"Insira o nome da marca: ");
+            marcaAdicionaListaMarcas.NomeMarca = Console.ReadLine()!;
+            Console.WriteLine($"Insira o código da marca: ");
+            marcaAdicionaListaMarcas.Codigo = int.Parse(Console.ReadLine()!);
+
+            marcaAdicionaListaMarcas.DataCadastro = DateTime.Now;
+
+            listaMarcas.Add(marcaAdicionaListaMarcas);
+
+            return marcaAdicionaListaMarcas;
         }
         public void listar()
         {
@@ -37,12 +34,16 @@ namespace Projeto_Final_Sprint3
             {
                 foreach (var item in listaMarcas)
                 {
-                    Console.WriteLine(@$"
-                    Código da Marca: {item.Codigo}
-                    Nome da marca: {item.NomeMarca}
-                    Data do cadastro: {item.DataCadastro}
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine(@$"\
+                    --------------------------------------------
+                        Código da Marca: {item.Codigo}
+                        Nome da marca: {item.NomeMarca}
+                        Data do cadastro: {item.DataCadastro}
+                    --------------------------------------------
                 ");
                 }
+                Console.ResetColor();
             }
 
             else
@@ -53,7 +54,11 @@ namespace Projeto_Final_Sprint3
 
         public void Deletar(int codigo)
         {
-
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Marca mc = listaMarcas.Find(x => x.Codigo == codigo)!;
+            listaMarcas.Remove(mc);
+            Console.WriteLine($"A marca cujo o código é: {codigo} foi removido!");
+            Console.ResetColor();
         }
     }
 }

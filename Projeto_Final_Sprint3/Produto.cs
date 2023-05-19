@@ -7,46 +7,70 @@ namespace Projeto_Final_Sprint3
 {
     public class Produto
     {
-        public int Codigo { get; set; }
-        public string NomeProduto { get; set; }
-        public float Preco { get; set; }
-        public DateTime DataCadastro { get; set; }
+        public int Codigo { get; private set; }
+        public string NomeProduto { get; private set; }
+        public float Preco { get; private set; }
+        public DateTime DataCadastro = new DateTime();
         public Marca Marca = new Marca();
-        public Usuario CadastradoPor { get; set; }
+        public Usuario CadastradoPor { get; private set; }
 
         List<Produto> listaProdutos = new List<Produto>();
 
-        public void Cadastrar()
+        public void Cadastrar(Usuario user)
         {
-            Usuario usu = new Usuario();
+            
             Produto adicionaProdutosListaProdutos = new Produto();
+            Marca m1 = new Marca();
+            Usuario usu = new Usuario();
+            adicionaProdutosListaProdutos.CadastradoPor = user;
 
-            Console.WriteLine($"Quantos produtos deseja cadastrar? Máximo 3");
-            int respostaProdutos = int.Parse(Console.ReadLine()!);
-            if (respostaProdutos > 0 && respostaProdutos < 4)
+            Console.WriteLine($"Insira o nome do produto: ");
+            adicionaProdutosListaProdutos.NomeProduto = Console.ReadLine()!;
+            Console.WriteLine($"Insira o código do produto: ");
+            adicionaProdutosListaProdutos.Codigo = int.Parse(Console.ReadLine()!);
+            Console.WriteLine($"Insira o preço do produto: ");
+            adicionaProdutosListaProdutos.Preco = float.Parse(Console.ReadLine()!);
+
+            adicionaProdutosListaProdutos.Marca = m1.Cadastrar();
+
+            adicionaProdutosListaProdutos.DataCadastro = DateTime.Now;
+
+            listaProdutos.Add(adicionaProdutosListaProdutos);
+        }
+        public void listar(Usuario user)
+        {
+            Usuario u = new Usuario();
+            if (listaProdutos.Count > 0)
             {
-                for (var i = 0; i < respostaProdutos; i++)
+                foreach (var item in listaProdutos)
                 {
-                    Console.WriteLine($"Insira o nome do produto(os): ");
-                    adicionaProdutosListaProdutos.NomeProduto = Console.ReadLine()!;
-                    Console.WriteLine($"Insira o código do produto(os): ");
-                    adicionaProdutosListaProdutos.Codigo = int.Parse(Console.ReadLine()!);
-                    Console.WriteLine($"Insira o preço do produto(os): ");
-                    adicionaProdutosListaProdutos.Preco = float.Parse(Console.ReadLine()!);
-                    Console.WriteLine($"Qual o nome da marca do produto>: ");
-
-                    listaProdutos.Add(adicionaProdutosListaProdutos);
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine(@$"
+             <=>=<=><=>=<=><=>=<=><=>=<=><=>=<=><=>=<=><=>
+                 Nome do produto: {item.NomeProduto}
+                 Código do produto: {item.Codigo}
+                 Preço do produto: {item.Preco:c2}
+                 Nome da marca: {item.Marca.NomeMarca}
+                 Cadastrado por: {item.CadastradoPor.Nome}
+                 Data do cadastro: {item.DataCadastro}
+             <=>=<=><=>=<=><=>=<=><=>=<=><=>=<=><=>=<=><=>
+             ");
+             Console.ResetColor();
                 }
+            }
+            else
+            {
+                Console.WriteLine($"Sem produto cadastrados, não é possivel lista-los");
             }
 
         }
-        public void listar()
-        {
-            
-        }
         public void Deletar(int codigo)
         {
-
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Produto rr = listaProdutos.Find(x => x.Codigo == codigo)!;
+            listaProdutos.Remove(rr);
+            Console.WriteLine($"O produto cujo o código é: {codigo} foi removido!");
+            Console.ResetColor();
         }
     }
 }

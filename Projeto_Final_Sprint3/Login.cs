@@ -7,54 +7,58 @@ namespace Projeto_Final_Sprint3
 {
     public class Login
     {
-        public bool Logado { get; set; }
+        public bool Logado { get; private set; }
 
         public Login()
         {
             Usuario user = new Usuario();
+            user.Cadastrarr(user);
             Logar(user);
 
-            if (Logado == true)
+            if (this.Logado == true)
             {
-                GerarMenu();
+                GerarMenu(user);
             }
         }
 
-        public void Logar(Usuario usuario)
+        public void Logar(Usuario _usuario)
         {
-        // voltarUser:
+        voltarUser:
             Console.WriteLine($"Informe o Email: ");
             string emailDigitado = Console.ReadLine()!;
 
             Console.WriteLine($"Informe a senha:");
             string senhaDigitada = Console.ReadLine()!;
 
-            if (emailDigitado == usuario.Email && senhaDigitada == usuario.Senha)
+            if (emailDigitado == _usuario.Email && senhaDigitada == _usuario.Senha)
             {
                 this.Logado = true;
+                Console.WriteLine($"Logado com sucesso");
             }
             else
             {
                 this.Logado = false;
                 Console.WriteLine($"Email e/ou Senha inválido, Digite novamente");
-                // goto voltarUser;
+                goto voltarUser;
             }
         }
 
-        public string Deslogar(Usuario usuario)
+        public string Deslogar(Usuario _usuario)
         {
             Logado = false;
             return "Deslogado com suceesso!!!";
         }
 
-        public void GerarMenu()
+        public void GerarMenu(Usuario user)
         {
             Produto produtos = new Produto();
             Marca marcas = new Marca();
+            Usuario user1 = new Usuario();
             string opcoes;
 
             do
             {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine(@$"
             
             ====>Menu Opções<====
@@ -67,12 +71,13 @@ namespace Projeto_Final_Sprint3
 
             [0] - Sair
             ");
+                Console.ResetColor();
 
                 opcoes = Console.ReadLine()!;
                 switch (opcoes)
                 {
                     case "1":
-                        produtos.Cadastrar();
+                        produtos.Cadastrar(user);
                         break;
                     case "2":
                         Console.WriteLine($"Insira o código do produto a ser removido: ");
@@ -80,7 +85,7 @@ namespace Projeto_Final_Sprint3
                         produtos.Deletar(codigoProduto);
                         break;
                     case "3":
-                        produtos.listar();
+                        produtos.listar(user1);
                         break;
                     case "4":
                         marcas.Cadastrar();
@@ -94,7 +99,15 @@ namespace Projeto_Final_Sprint3
                         marcas.Deletar(codigoMarca);
                         break;
                     case "0":
-                        Console.WriteLine($"Saindo do programa, obrigado!");
+                        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                        Console.Write($"Saindo do app, obrigado");
+                        Console.ResetColor();
+                        Console.Write($".");
+                        Console.Beep(1100, 600);
+                        Console.Write($".");
+                        Console.Beep(1100, 600);
+                        Console.Write($".");
+                        Console.Beep(1100, 600);
                         break;
                     default:
                         Console.WriteLine($"Opção inválida, escolha uma opção correta!");
