@@ -60,7 +60,7 @@ namespace Projeto_Final_Sprint3
             }
             else
             {
-                Console.WriteLine($"Sem produto cadastrados, não é possivel lista-los");
+                Console.WriteLine($"Sem produtos cadastrados, não é possivel lista-los");
             }
 
         }

@@ -48,7 +48,7 @@ namespace Projeto_Final_Sprint3
 
             else
             {
-                Console.WriteLine($"Não é possível listar, pois não tem marcas cadastradas!");
+                Console.WriteLine($"Não é possível fazer a listagem, pois não existem marcas cadastradas!");
             }
         }
 
