@@ -10574,11 +10574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\53685550837\\Desktop\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj",
+      "projectUniqueName": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj",
       "projectName": "projeto-gamer-mvc",
-      "projectPath": "C:\\Users\\53685550837\\Desktop\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj",
+      "projectPath": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj",
       "packagesPath": "C:\\Users\\53685550837\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\53685550837\\Desktop\\projeto-gamer-mvc\\obj\\",
+      "outputPath": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\53685550837\\AppData\\Roaming\\NuGet\\NuGet.Config",
