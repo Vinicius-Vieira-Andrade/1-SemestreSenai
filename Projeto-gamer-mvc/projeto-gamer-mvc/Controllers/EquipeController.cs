@@ -33,17 +33,53 @@ namespace projeto_gamer_mvc.Controllers
             return View();
         }
 
+
+        [Route("Cadastrar")]
+
         public IActionResult Cadastrar(IFormCollection form) //recebe como parametro os dados informados no formulario do frontend
         {
             Equipe novaEquipe = new Equipe(); //cadastra nova equipe 
 
             novaEquipe.Nome = form["Nome"].ToString(); //recebe o nome do formulario para aplicar ao novo objeto equipe
-            novaEquipe.Imagem = form["Imagem"].ToString(); //recebe o imagem do formulario para aplicar ao novo objeto equipe
 
-            caminho.Add(novaEquipe); //adiciona pelo contexto esse novo objeto
+
+
+            //logica do sistema de upload de imagem
+            if (form.Files.Count > 0) //se existe um arquivo selecionado
+            {
+                var file = form.Files[0]; //guarda a imagem a partir da posicao 0 que foi enviada no formulario
+
+                var folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Equipes"); //variavel que guarda a logica do caminho que guardará as imagens upadas, cria a pasta equipes q terá as imagens
+
+                if (!Directory.Exists(folder)) //se o diretorio n existir, crie-o
+                {
+                    Directory.CreateDirectory(folder); //cria o diretorio
+                }
+
+                var path = Path.Combine(folder, file.FileName); //combina a pasta com o nome do arquivo da imagem
+
+                using (var stream = new FileStream(path, FileMode.Create)) //executa o serviço e quando feito finaliza, isso é o "using"
+                {
+                    file.CopyTo(stream);
+                }
+
+                novaEquipe.Imagem = file.FileName;
+            }
+
+            else
+            {
+                novaEquipe.Imagem = "padrao.png";
+            }
+
+
+
+            //vem como string, precisamos q venha como imagem
+            // novaEquipe.Imagem = form["Imagem"].ToString();          //recebe o imagem do formulario para aplicar ao novo objeto equipe
+
+
+
+            caminho.Equipe.Add(novaEquipe); //adiciona pelo context esse novo objeto
             caminho.SaveChanges(); //salva as mudanças feitas
-
-            ViewBag.Equipe = caminho.Equipe.ToList(); //lista novamente
 
             return LocalRedirect("~/Equipe/Listar"); //retorna a rota
         }

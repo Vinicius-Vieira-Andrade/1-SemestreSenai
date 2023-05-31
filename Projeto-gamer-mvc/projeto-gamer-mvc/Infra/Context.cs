@@ -24,7 +24,7 @@ namespace projeto_gamer_mvc.Infra
             }
         }
 
-        public DbSet<Jogador> Jogador { get; set; }
-        public DbSet<Equipe> Equipe { get; set; }
+        public DbSet<Jogador> Jogador { get; set; } //tabela jogador
+        public DbSet<Equipe> Equipe { get; set; }//tabela equipe
     }
 }
