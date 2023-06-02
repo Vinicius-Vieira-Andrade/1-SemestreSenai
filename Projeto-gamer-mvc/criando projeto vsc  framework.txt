@@ -5,7 +5,12 @@ tipo o new console
 dotnet dev-certs https --trust - comando para gerar certificado de segurança https sempre fazer antes de rodar,
 só é necessario uma vez no computador
 
+
+	ATENÇÃOoo!!! PESQUISAR
+
 dotnet ef migrations add InitialCreate - cria a migrations
 "ef" de entity framework
+
+dotnet ef database update -
 
 BOOTSTRAP CSS = FRAMEWORK

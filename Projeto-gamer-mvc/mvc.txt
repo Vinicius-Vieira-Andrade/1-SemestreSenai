@@ -1,0 +1,20 @@
+arquitetura MVC é um padrão de arquitetura de software que divide uma aplicação em três camadas sendo eles 
+
+model (modelo) - a manipulação de dados
+
+view (visualização) - interação do usuário
+
+controller (controlador) - sendo a camada de controle
+
+
+como funciona?
+quando vc acessa um site a arquitetura MVC entra em ação
+
+o controller(controlador) se comunica tanto com a view(visualização) quanto com o model(modelo) para GERAR UMA REQUISIÇÃO
+
+PÓREM O MODEL NUNCA VAI SE COMUNICAR COM A VIEW, CABENDO ESSA FUNÇÃO DE RENDERIZAÇÃO E ENTREGA AO CONTROLLER
+
+Mas o Model avisa quando as solicitações foram atendidas para que a View possa mostrá-las ao usuário.
+
+
+pra cada controller deve existir uma view no minimo

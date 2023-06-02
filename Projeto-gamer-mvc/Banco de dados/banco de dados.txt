@@ -1,0 +1,4 @@
+Ssms - gerenciador de banco de dados
+SQL linguagem
+
+classe context é o intermediario das models para o banco de dados onde é possivel trabalhar com o banco de dados programando

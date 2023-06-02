@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3PnxobAbmhOVevn9HJQ3pmGDu4Phb3QzTVNLWeAqmU4=",
+  "Hash": "re5q8gU5TMqUixnxCR0z8DS9rbdyJA7wrTAirhBMU40=",
   "Source": "projeto-gamer-mvc",
   "BasePath": "_content/projeto-gamer-mvc",
   "Mode": "Default",
@@ -117,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\curry_2.jpg_18363785.webp"
+    },
+    {
+      "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\padrao.png",
+      "SourceId": "projeto-gamer-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-mvc",
+      "RelativePath": "img/Equipes/padrao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\padrao.png"
+    },
+    {
+      "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\png-clipart-stephen-curry-stephen-curry-on-one-foot-celebrities-sports-celebrities.png",
+      "SourceId": "projeto-gamer-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-mvc",
+      "RelativePath": "img/Equipes/png-clipart-stephen-curry-stephen-curry-on-one-foot-celebrities-sports-celebrities.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\png-clipart-stephen-curry-stephen-curry-on-one-foot-celebrities-sports-celebrities.png"
     },
     {
       "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\js\\site.js",
