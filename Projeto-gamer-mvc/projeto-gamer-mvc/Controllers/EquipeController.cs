@@ -25,8 +25,8 @@ namespace projeto_gamer_mvc.Controllers
         [Route("Listar")] //http://localhost/Equipe/Listar
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
             //mochila que guarda a lista das equipes, podemos usar essa "mochila" na view de equipe
-
             ViewBag.Equipe = caminho.Equipe.ToList(); //listar as equipes dentro da tabela EQUIPE
 
             //retorna a view de equipe
@@ -99,14 +99,14 @@ namespace projeto_gamer_mvc.Controllers
         [Route("~/Editar/{id}")]
         public IActionResult Editar(int id)
         {
+            ViewBag.UserName = HttpContext.Session.GetString("UserName"); //disponibiliza a permissão para quem estiver logado acessa o sistema
+
             Equipe ee = caminho.Equipe.First(ee => ee.IdEquipe == id); // acha o objeto/equipe pelo id
 
             ViewBag.Equipe = ee; //guarda o objeto retornado na mochila 
 
             return View("Edit"); //retorna a view que vamos criar para a tela de edição
         }
-
-
 
 
         [Route("Atualizar")]
@@ -153,11 +153,6 @@ namespace projeto_gamer_mvc.Controllers
 
             return LocalRedirect("~/Equipe/Listar");
         }
-
-
-
-
-
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

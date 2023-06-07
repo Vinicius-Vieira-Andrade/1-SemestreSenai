@@ -1,0 +1,23 @@
+@model Jogador //PARA LOGAR USAREMOS O JOGADOR, O JOGADOR IRÁ LOGAR
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Tela de Login</h2>
+
+<h3>
+    @TempData.Peek("Mensagem") @*traz a mensagem da propriedade tempData através do peek*@
+</h3>
+
+<form method="post" action="@Url.Action("Logar")">  @*Formulario para logar*@
+
+    <label for="">Email</label>
+    <input type="email" name="Email" required>
+
+    <label for="">Senha</label>
+    <input type="password" name="Senha" required>
+
+    <button type="submit">Logar</button>
+
+</form>

@@ -18,11 +18,11 @@
     <input type="password" name="Senha" required>
 
     <label for="">Equipe</label>
-    <select name="Equipe" id="">
+    <select name="Equipe" id="" required>
         <option value="0">Selecione uma opção</option>
         @foreach (var item in ViewBag.Equipe)
         {
-            <option value="">@item.Nome</option>
+            <option value="@item.IdEquipe">@item.Nome</option>
         }
     </select>
 
@@ -37,7 +37,7 @@
         <th>Nome</th>
         <th>Email</th>
         <th>Equipe</th>
-        <th></th>
+        <th>Ações</th>
     </thead>
 
     <tbody>
@@ -51,6 +51,12 @@
                 <td>
                     <img src="/img/Equipes/@jog.Equipe.Imagem" alt="Imagem da equipe do jogador" width="50px"> @*acessa
                 imagem da tabela equipes pro jogador*@
+                </td>
+                <td>
+                    <a style="text-decoration: none;" asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@jog.IdEquipe">Excluir</a>
+                    </td>
+                <td
+                ><a style="text-decoration: none;" asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jog.IdEquipe">Editar</a>
                 </td>
             </tr>
         }
