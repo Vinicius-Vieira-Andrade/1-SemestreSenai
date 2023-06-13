@@ -9,7 +9,7 @@ namespace projeto_gamer_mvc.Infra
 {
     public class Context : DbContext //classe do sistema q fornece autorizacao para trabalhar com o dbcontext, por isso instalar os pacotes do framework
     {
-        // pasta que contém a infraestrutura do projeto e a classe é responsavel pelas configuracoes q vao estabelecer a comunicacao com o nosso banco de dados a string
+        // pasta que contém a infraestrutura do projeto e a classe é responsavel pelas configuracoes q vao estabelecer a comunicacao com o nosso banco de dados ao projeto
         public Context()
         {
         }
