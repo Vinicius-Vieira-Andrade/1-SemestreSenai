@@ -4,20 +4,36 @@
     ViewData["Title"] = "Login";
 }
 
-<h2>Tela de Login</h2>
+<link rel="stylesheet" href="~/css/login.css">
 
-<h3>
-    @TempData.Peek("Mensagem") @*traz a mensagem da propriedade tempData através do peek*@
-</h3>
 
-<form method="post" action="@Url.Action("Logar")">  @*Formulario para logar*@
 
-    <label for="">Email</label>
-    <input type="email" name="Email" required>
+<!-- FORMULÁRIO DE LOGIN -->
+    <main class="fundo-login">
+        <div class="bkg-login">
+            <form class="frm-login" method="post" action="@Url.Action("Logar")">
+                <div class="login-title">
+                    <hr class="login-line">
+                    <h1>Login</h1>
+                </div>
+                <div class="frm-linha">
+                    <div class="bkg-input">
+                        <img src="~/assets/vector-user.svg" alt="ícone de usuário">
+                        <input type="email" name="Email" required id="email" placeholder="Digite seu e-mail:">
+                    </div>
+                </div>
+                <div class="frm-linha">
+                    <div class="bkg-input">
+                        <img src="~/assets/vector-key.svg" alt="ícone de chave">
+                        <input type="password" name="Senha" required id="password" placeholder="Digite sua senha:">
+                    </div>
+                </div>
 
-    <label for="">Senha</label>
-    <input type="password" name="Senha" required>
+                <button class="btn-logar">Logar</button>
 
-    <button type="submit">Logar</button>
+                <br>
+                @TempData.Peek("Mensagem") @*traz a mensagem da propriedade tempData através do peek*@
+            </form>
+        </div>
 
-</form>
+    </main>

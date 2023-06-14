@@ -241,6 +241,22 @@
       "PackagePath": "staticwebassets\\assets\\vector-user.svg"
     },
     {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\equipe.css",
+      "PackagePath": "staticwebassets\\css\\equipe.css"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\header-footer.css",
+      "PackagePath": "staticwebassets\\css\\header-footer.css"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -299,6 +315,10 @@
     {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\images\\backgrund_notícias.png",
       "PackagePath": "staticwebassets\\images\\backgrund_notícias.png"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\images\\deskbackgroung_footerfooter.png",
+      "PackagePath": "staticwebassets\\images\\deskbackgroung_footerfooter.png"
     },
     {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\images\\kiljoy.png",
