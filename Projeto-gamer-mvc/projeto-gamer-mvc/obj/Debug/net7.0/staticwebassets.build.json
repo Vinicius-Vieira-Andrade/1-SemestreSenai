@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NLW8oMo5DtBtJEqJ+mNAt6MQq+uCp4pqXkJkhkeXzzk=",
+  "Hash": "Tzdyz6WQ1C0nFVwtinFmL7NbLe6U5SEiQBWLf2mi8UM=",
   "Source": "projeto-gamer-mvc",
   "BasePath": "_content/projeto-gamer-mvc",
   "Mode": "Default",
@@ -1105,6 +1105,23 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
+      "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\jogador.css",
+      "SourceId": "projeto-gamer-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-mvc",
+      "RelativePath": "css/jogador.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jogador.css"
+    },
+    {
       "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\login.css",
       "SourceId": "projeto-gamer-mvc",
       "SourceType": "Discovered",
@@ -1290,6 +1307,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\backgrund_notícias.png"
+    },
+    {
+      "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\images\\banner_cadastro_de_equipedeskequipes.png",
+      "SourceId": "projeto-gamer-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-mvc",
+      "RelativePath": "images/banner_cadastro_de_equipedeskequipes.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner_cadastro_de_equipedeskequipes.png"
     },
     {
       "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\images\\Banner_Liga-Game-Mobile.png",
@@ -1596,6 +1630,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Equipes\\curry_2.jpg_18363785.webp"
+    },
+    {
+      "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\Escudo-Cuiaba-Png.png",
+      "SourceId": "projeto-gamer-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-mvc",
+      "RelativePath": "img/Equipes/Escudo-Cuiaba-Png.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Equipes\\Escudo-Cuiaba-Png.png"
     },
     {
       "Identity": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\glo.png",

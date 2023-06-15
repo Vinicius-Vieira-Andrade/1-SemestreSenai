@@ -3,13 +3,16 @@
 /* Main */
 
 main {
-    /* margin-top: 60px; */
-    height: 1231px;
-    background-image: url(../images/banner_cadastro_de_equipedeskequipes.png);
-    background-size: cover;
+    margin-top: 60px;
+    height: 1403px;
+    background-image: url(../assets/fundo-jogadores-mobile.png);
+    background-size: contain;
     background-position: top;
-    background-repeat: no-repeat;
 }
+
+
+
+
 
 
 
@@ -46,7 +49,7 @@ main .cadastro-equipes .frm-cad-equipe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 492px;
+    /* height: 650px; */
 
     /* efeito da borda e do fundo glass */
     border: 2px solid transparent;
@@ -63,12 +66,12 @@ main .cadastro-equipes .frm-cad-equipe {
 main .cadastro-equipes .frm-cad-equipe .cadequipe-titulo {
     margin-bottom: 40px;
 }
-
 main .cadastro-equipes .frm-cad-equipe .cadequipe-titulo h1 {
     font-family: TitilliumWeb-Black, sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 main .cadastro-equipes .frm-cad-equipe .cadequipe-titulo hr {
@@ -108,10 +111,9 @@ main .cadastro-equipes .frm-cad-equipe .campo-entrada {
 
 /* File Field */
 
-main .cadastro-equipes .frm-cad-equipe .foto input {
+main .cadastro-equipes .frm-cad-equipe .foto input { 
     display: none;
 }
-
 main .cadastro-equipes .frm-cad-equipe .foto {
     display: flex;
     align-items: center;
@@ -119,7 +121,6 @@ main .cadastro-equipes .frm-cad-equipe .foto {
     font-size: 10px;
     width: 100%;
 }
-
 main .cadastro-equipes .frm-cad-equipe .foto::before {
     display: flex;
     justify-content: center;
@@ -213,6 +214,7 @@ main .cadastro-equipes table tbody tr {
 main .cadastro-equipes table td {
     width: 100%;
     height: 38px;
+    padding: 0 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,28 +234,23 @@ main .cadastro-equipes table td img.yellow-trash {
 }
 
 
-/* MEDIAS QUERIES */
+/* Desktop */
 @media screen and (min-width: 992px) {
 
-    main .cadastro-equipes .frm-cad-equipe,
-    main .cadastro-equipes table {
+    main {
+        background-image: url(../images/background-jogadores.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    main .cadastro-equipes .frm-cad-equipe {
         width: 800px;
     }
-
-    main .cadastro-equipes .frm-cad-equipe .foto {
-        width: 100%;
-        font-size: 16px;
-        gap: 20px;
-    }
-
-    main .cadastro-equipes .frm-cad-equipe .foto::before {
-        width: 280px;
-        height: 40px;
-        font-size: 16px;
-    }
-
     main .cadastro-equipes .frm-cad-equipe button {
-        width: 243px;
+        max-width: 243px;
+    }
+    main .cadastro-equipes table {
+        width: 800px;
     }
 
 

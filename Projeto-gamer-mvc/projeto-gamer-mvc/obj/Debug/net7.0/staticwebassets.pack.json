@@ -253,6 +253,10 @@
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\jogador.css",
+      "PackagePath": "staticwebassets\\css\\jogador.css"
+    },
+    {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
@@ -317,6 +321,10 @@
       "PackagePath": "staticwebassets\\images\\backgrund_notícias.png"
     },
     {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\images\\banner_cadastro_de_equipedeskequipes.png",
+      "PackagePath": "staticwebassets\\images\\banner_cadastro_de_equipedeskequipes.png"
+    },
+    {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\images\\deskbackgroung_footerfooter.png",
       "PackagePath": "staticwebassets\\images\\deskbackgroung_footerfooter.png"
     },
@@ -359,6 +367,10 @@
     {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\images\\noticia8.png",
       "PackagePath": "staticwebassets\\images\\noticia8.png"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\Escudo-Cuiaba-Png.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\Escudo-Cuiaba-Png.png"
     },
     {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\baixados.png",

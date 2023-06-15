@@ -77,13 +77,6 @@
                     }
 
 
-
-
-
-
-
-
-
                 </tbody>
             </table>
         }
@@ -93,88 +86,5 @@
     </section>
 </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@* <h1>Tela de Equipes</h1>
-
-@if (ViewBag.UserName == null)
-{
-    <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
-}
-
-else
-{
-    <form method='post' action="@Url.Action("Cadastrar")" enctype="multipart/form-data"> @*usar o enctype é obrigatório para
-    criar um sistema de upload de arquivo*@
-        <label for="">Nome</label>
-        <input type="text" name="Nome" required>
-
-        <label for="">Imagem</label>
-        <input type="file" name="Imagem">
-
-        <button type="submit">Cadastrar</button>
-
-    @* </form>
-
-
-    <table class="table table-striped table-responsive">
-        <thead>
-            <th>Id</th>
-            <th>Nome</th>
-            <th>Imagem</th>
-            <th>Ações</th>
-        </thead> *@
-
-        @* <tbody>
-
-            @foreach (Equipe eq in ViewBag.Equipe)
-            {
-
-                <tr>
-                    <td>@eq.IdEquipe</td>
-                    <td>@eq.Nome</td>
-                    <td>
-                        <img src="/img/Equipes/@eq.Imagem" alt="imagem da equipe @eq.Nome" width="50px">
-                    </td>
-                    <td>
-                        <a style="text-decoration: none;" asp-area="" asp-controller="Equipe" asp-action="Excluir"
-                            asp-route-id="@eq.IdEquipe">Excluir</a>
-                    </td>
-                    <td>
-                        <a style="text-decoration: none;" asp-area="" asp-controller="Equipe" asp-action="Editar"
-                            asp-route-id="@eq.IdEquipe">Editar</a>
-                    </td>
-                </tr>
-
-            } *@
-
-
-
-        @* </tbody>
-    </table>
-} *@ 
 
 

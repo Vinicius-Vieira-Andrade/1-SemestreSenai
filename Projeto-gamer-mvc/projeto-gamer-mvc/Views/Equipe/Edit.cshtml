@@ -4,29 +4,42 @@
     ViewData["Title"] = "Edit";
 }
 
+<link rel="stylesheet" href="~/css/equipe.css">
 
-<h2>Edição de Equipes</h2>
+<!-- MAIN -->
+<main>
 
-@if (ViewBag.UserName == null)
-{
-    <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
-}
+    <section class="container-grid cadastro-equipes">
 
-else
-{
-    <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
-        <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe"> @*acha o id da equipe pela viewbag q esta
-    guardada os dados referente ao objeto/equipe*@
+        @if (ViewBag.UserName == null)
+        {
+            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+        }
 
-        <label for="">Nome</label>
-        <input type="text" name="Nome" value="@ViewBag.Equipe.Nome"> @*acha o nome*@
+        else
+        {
+            <form class="frm-cad-equipe" method='post' action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+                <div class="cadequipe-titulo">
+                    <h1>Edição de equipes</h1>
+                    <hr>
+                </div>
 
-        <label for="">Imagem</label>
-        <input type="file" name="Imagem" value="@ViewBag.Equipe.Imagem"> @*acha a imagem*@
 
-        <button type="submit">Atualizar</button>
+                <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe"> @*acha o id da equipe pela viewbag q
+            esta
+            guardada os dados referente ao objeto/equipe*@
+                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome"
+                    value="@ViewBag.Equipe.Nome" required>
+                <label class="foto" for="foto-file">
+                    Nenuma imagem selecionada...
+                    <input type="file" id="foto-file" name="Imagem" value="@ViewBag.Equipe.Imagem">
+                </label>
 
-    </form>
-}
+                <button>Atualizar</button>
+            </form>
+
+        }
+    </section>
+</main>
 
