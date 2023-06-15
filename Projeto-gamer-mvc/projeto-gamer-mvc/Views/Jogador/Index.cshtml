@@ -51,24 +51,15 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach (Jogador jog in ViewBag.Jogador)
+            {
                     <tr>
                         <td>1</td>
                         <td>Eduardo</td>
                         <td>eduardo@gmail.com</td>
                         <td><img class="yellow-trash" src="./assets/trash.png" alt=""></td>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Eduardo</td>
-                        <td>eduardo@gmail.com</td>
-                        <td><img class="yellow-trash" src="./assets/trash.png" alt=""></td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Eduardo</td>
-                        <td>eduardo@gmail.com</td>
-                        <td><img class="yellow-trash" src="./assets/trash.png" alt=""></td>
-                    </tr>
+            }
                 </tbody>
             </table>
         </section>
