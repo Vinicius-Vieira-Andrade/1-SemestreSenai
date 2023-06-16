@@ -98,6 +98,9 @@
     cursor: pointer;
 }
 
+input {
+    color: rgb(255, 255, 255);
+}
 
 
 /* MEDIAS QUERIES */
@@ -147,5 +150,6 @@
 .frm-login .btn-logar {
     max-width: 210px;
 }
+
 
 }

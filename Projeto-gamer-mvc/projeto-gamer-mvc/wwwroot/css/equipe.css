@@ -147,6 +147,15 @@ main .cadastro-equipes .frm-cad-equipe button {
     margin-top: 40px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+main .cadastro-equipes .frm-cad-equipe button:hover{
+    
+        background-color: rgb(255, 120, 1);
+        color: white;
+    
 }
 
 
@@ -221,6 +230,7 @@ main .cadastro-equipes table td {
 
 main .cadastro-equipes table td:last-of-type {
     border: none;
+    gap: 20px;
 }
 
 main .cadastro-equipes table td img.green-play {
@@ -229,6 +239,10 @@ main .cadastro-equipes table td img.green-play {
 
 main .cadastro-equipes table td img.yellow-trash {
     width: 15px;
+}
+
+select option{
+    color: black;
 }
 
 
@@ -256,5 +270,12 @@ main .cadastro-equipes table td img.yellow-trash {
         width: 243px;
     }
 
+    input {
+        color: white;
+    }
+
+    select option {
+        color: black;
+    }
 
 }

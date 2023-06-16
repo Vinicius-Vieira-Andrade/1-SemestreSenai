@@ -36,6 +36,13 @@
     border: 1px solid #F9AA01;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    transition: all 0.5s;
+    border: none;
+}
+
+.banner a.btn-sobreliga:hover{
+    background-color: rgb(255, 120, 1);
+    color: white;
 }
 
 /********************* Jogos *********************/

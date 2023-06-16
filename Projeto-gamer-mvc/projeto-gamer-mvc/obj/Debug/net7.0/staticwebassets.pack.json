@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\assets\\Botao_voltar_ao_topo.svg"
     },
     {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\assets\\Vectoredit.svg",
+      "PackagePath": "staticwebassets\\assets\\Vectoredit.svg"
+    },
+    {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\assets\\envelope-icon.png",
       "PackagePath": "staticwebassets\\assets\\envelope-icon.png"
     },
@@ -369,32 +373,56 @@
       "PackagePath": "staticwebassets\\images\\noticia8.png"
     },
     {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\52d63a19-ce3b-4f22-9c76-9947994f2a21-transformed.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\52d63a19-ce3b-4f22-9c76-9947994f2a21-transformed.png"
+    },
+    {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\Escudo-Cuiaba-Png.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\Escudo-Cuiaba-Png.png"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\Logo-Lazio-Png.webp",
+      "PackagePath": "staticwebassets\\img\\Equipes\\Logo-Lazio-Png.webp"
     },
     {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\baixados.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\baixados.png"
     },
     {
-      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\curry_2.jpg_18363785.webp",
-      "PackagePath": "staticwebassets\\img\\Equipes\\curry_2.jpg_18363785.webp"
-    },
-    {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\glo.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\glo.png"
     },
     {
-      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\i.png",
-      "PackagePath": "staticwebassets\\img\\Equipes\\i.png"
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\lazioo.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\lazioo.jpg"
     },
     {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\padrao.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png"
     },
     {
-      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\png-clipart-stephen-curry-stephen-curry-on-one-foot-celebrities-sports-celebrities.png",
-      "PackagePath": "staticwebassets\\img\\Equipes\\png-clipart-stephen-curry-stephen-curry-on-one-foot-celebrities-sports-celebrities.png"
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\png-clipart-s-s-lazio-youth-sector-polisportiva-s-s-lazio-dream-league-soccer-1929-30-serie-a-others-emblem-text.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\png-clipart-s-s-lazio-youth-sector-polisportiva-s-s-lazio-dream-league-soccer-1929-30-serie-a-others-emblem-text.png"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\santos.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\santos.png"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\societa-sportiva-lazio-256.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\societa-sportiva-lazio-256.png"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\vasco-removebg-preview (1).png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\vasco-removebg-preview (1).png"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\vasco-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\vasco-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\vasco.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\vasco.png"
     },
     {
       "Id": "C:\\Users\\53685550837\\Desktop\\1-SemestreSenai\\Projeto-gamer-mvc\\projeto-gamer-mvc\\wwwroot\\js\\site.js",

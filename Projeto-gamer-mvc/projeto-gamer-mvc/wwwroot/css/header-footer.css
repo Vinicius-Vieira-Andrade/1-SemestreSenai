@@ -341,6 +341,15 @@ footer .frm-button {
     outline: none;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+footer .frm-button:hover {
+
+    background-color: rgb(255, 120, 1);
+    color: white;
+
 }
 
 footer #copyright {
@@ -432,6 +441,7 @@ footer #copyright {
     .header nav a.mail-box {
         display: none;
     }
+
     .header nav a:hover {
         background-color: transparent;
         color: #F9AA01;
@@ -445,6 +455,7 @@ footer #copyright {
     .header nav .social-box {
         display: none;
     }
+
     header .icons-header-bkg {
         position: static;
         width: auto;
@@ -475,29 +486,24 @@ footer #copyright {
         padding-right: 20px;
         /* border: 1px solid red; */
     }
-    
+
     footer .card-ftitem-box:last-of-type {
         padding-right: 0;
     }
 
     footer .card-ftitem-box #ftlogo-link {
-         align-self: inherit; /* herda o comportamento do flex container */
+        align-self: inherit;
+        /* herda o comportamento do flex container */
     }
 
     footer .card-ftitem-box .social-fticons {
         /* border: 1px solid white; */
         width: 80%;
     }
-    
+
     footer .menu-footer {
         flex-direction: column;
         width: 100%;
     }
 
 }
-
-
-
-
-
-
